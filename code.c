@@ -209,5 +209,4 @@ int main() {
     }
 
     return 0;
-    // merci beaucoup pour cette opportunité
 }
