@@ -1,32 +1,58 @@
-# projet-C-last-version
-1. Application de location des voitures (E-Cars)
-2. # projet-c-
-1. Application de location des voitures (E-Cars)
-2. # E-Cars - Application de Location de Voitures en C
+# ECAR Fleet Manager
 
-Bienvenue dans E-Cars, une application simple en ligne de commande écrite en langage C pour la gestion de location de voitures. Cette application vous permet de consulter l'état des voitures disponibles à l'agence, ainsi que l'historique des locations jour par jour et mois par mois.
+1. **ECAR Fleet Manager** – Application de location de voitures en C (E-Cars)
+2. **Projet-C** – Version finale
+
+Bienvenue dans **ECAR Fleet Manager**, une application en ligne de commande écrite en C pour la gestion de la location de voitures. Cette application vous permet de :
+
+- Consulter l'état des voitures disponibles à l'agence.
+- Louer et retourner des véhicules avec suivi de l'historique.
+- Générer des statistiques jour par jour et mois par mois.
 
 ## Fonctionnalités Principales
 
 - **Louer une Voiture**: Permet de louer une voiture et enregistre les détails de la location.
-- **Supprimer une Voiture en Panne**: Supprime une voiture qui est en panne ou hors service.
-- **Modifier la Description et l'État d'une Voiture**: Permet de mettre à jour les informations d'une voiture.
-- **Afficher l'Historique des Locations**: Consultez l'historique complet des locations enregistrées.
-- **Retour d'une Voiture en Cas de Réclamation**: Gère le retour d'une voiture en cas de problème ou de réclamation.
-- **Afficher l'État des Voitures Disponibles à l'Agence**: Visualisez rapidement toutes les voitures disponibles.
-- **Afficher l'Historique des Locations Jour par Jour et Mois par Mois**: Permet une analyse détaillée de l'utilisation des voitures.
+- **Supprimer une Voiture en Panne**: Retire du parc une voiture déclarée en panne.
+- **Modifier une Voiture**: Met à jour marque, modèle, année et statut.
+- **Afficher l'État des Voitures Disponibles**: Liste les voitures libres pour location.
+- **Historique des Locations**: Affiche l’historique complet, jour par jour et mois par mois.
+- **Import/Export CSV**: Sauvegarde et charge les fichiers `voitures.csv` et `historique.csv`.
+- **Statistiques Mensuelles**: Nombre de locations par mois.
 
 ## Comment Utiliser l'Application
 
-1. **Compilation**: Compilez le programme en utilisant un compilateur C.
-  
+1. **Compilation** :
+   ```bash
+   gcc main.c -o ecar_fleet_manager
+   ```
+2. **Exécution** :
+   ```bash
+   ./ecar_fleet_manager
+   ```
+3. **Navigation** :
+   Suivez les options du menu interactif pour accéder aux fonctionnalités.
 
-2. **Exécution**: Exécutez le programme compilé.
-   
+```text
+1) Ajouter une voiture
+2) Lister les voitures
+3) Filtrer par statut
+4) Modifier une voiture
+5) Supprimer une voiture
+6) Louer une voiture
+7) Afficher l’historique
+8) Retourner une voiture
+9) Sauvegarder voitures (CSV)
+a) Charger voitures (CSV)
+b) Sauvegarder historique (CSV)
+c) Charger historique (CSV)
+d) Statistiques mensuelles
+0) Quitter
+```
 
-3. **Interagissez avec le Menu**: Suivez les instructions du menu interactif pour accéder aux différentes fonctionnalités.
-
-   
 ## Contribuer
-Si vous souhaitez contribuer à l'amélioration de cette application, n'hésitez pas à soumettre des pull requests ou à ouvrir des issues. Votre feedback et vos suggestions sont les bienvenus !
 
+Vos contributions sont les bienvenues ! Ouvrez une issue ou une pull request pour proposer des améliorations.
+
+---
+
+© 2025 ECAR Fleet Manager – Tous droits réservés.
